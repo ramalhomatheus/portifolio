@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: rgb(118, 221, 157);
     font-size: 16px;
@@ -12,42 +11,62 @@ body {
     
     
 }
-#image{
+
+/* #image{
     border-radius: 50px;
     width: 400px;
-    float: right;
+    border:solid;
     
-}
-#introduction {  
-    padding: 30px 5px;
-    min-height: 650px; 
-    margin-left: 0; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(127, 243, 179);
-    text-align: center;
-     
     
-}
+} */
+
 #description{
-    font-size: 1em;
-    text-align: left;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 535px;
+    background-color: rgb(146, 244, 195);
+    /* padding: 0em 30px 6em; */
+    /* margin: auto; */
+    
+
     
 }
-#textheader {
-    font-size: 1em;
-    text-align: left;
-    max-width: 550px;
-    padding: 20px;
-    background-color: aliceblue;
-    float: center;    
-}
-#habilidades{
-    float:right;
-    padding: 0px 20px;
-    max-width: 200px;
-    margin-top: 10px;    
-    max-height: 200px;    
-    background-color: rgb(212, 221, 230);
+header {
     text-align: center;
+    font-size: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#indice1 {
+    text-align: left;
+}
+.temas{
+    width: 33%;
+    height: 33%;
+    padding: 1%;
+    border: solid;
+    text-align: left;       
+    background-color:aliceblue;
+    border-radius: 5%;
+    margin-left: 5%;
 }
 
+#indice{
+    width: 20%;
+    height: 33%;
+    padding: 1%;
+    margin-left:5%;
+    border: solid;
+    text-align: left;      
+    background-color:aliceblue;
+    border-radius: 5%;
+}
+
+#image{
+    border-radius: 20%;
+    width: 400px;
+    text-align: center;    
+    margin:1% 5% 0% 10%;
+    
+
+}
