@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(118, 221, 157);
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: purple;   
+    
+    
+}
+#image{
+    border-radius: 50px;
+    width: 400px;
+    float: right;
+    
+}
+#introduction {  
+    padding: 30px 5px;
+    min-height: 650px; 
+    margin-left: 0; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(127, 243, 179);
+    text-align: center;
+     
+    
+}
+#description{
+    font-size: 1em;
+    text-align: left;
+    
+}
+#textheader {
+    font-size: 1em;
+    text-align: left;
+    max-width: 550px;
+    padding: 20px;
+    background-color: aliceblue;
+    float: center;    
+}
+#habilidades{
+    float:right;
+    padding: 0px 20px;
+    max-width: 200px;
+    margin-top: 10px;    
+    max-height: 200px;    
+    background-color: rgb(212, 221, 230);
+    text-align: center;
+}
+
