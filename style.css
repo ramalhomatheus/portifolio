@@ -7,7 +7,7 @@ body {
     font-size: 16px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    color: purple;   
+    color: #fff;   
     
     
 }
@@ -22,7 +22,7 @@ body {
 
 #description{
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     height: 535px;
     background-color: rgb(146, 244, 195);
@@ -37,36 +37,42 @@ header {
     font-size: 3em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-#indice1 {
-    text-align: left;
-}
-.temas{
-    width: 33%;
-    height: 33%;
+
+.sobreM{
+    
     padding: 1%;
     border: solid;
     text-align: left;       
-    background-color:aliceblue;
-    border-radius: 5%;
+    background-color:#11a36a;
+    border-radius: 20px;
     margin-left: 5%;
 }
 
-#indice{
-    width: 20%;
-    height: 33%;
-    padding: 1%;
-    margin-left:5%;
+#habili{
+
+    padding: 15px 30px;
     border: solid;
     text-align: left;      
-    background-color:aliceblue;
-    border-radius: 5%;
+    background-color:#11a36a;
+    border-radius: 20px;
+    margin-left: 30px;
 }
 
 #image{
-    border-radius: 20%;
-    width: 400px;
-    text-align: center;    
-    margin:1% 5% 0% 10%;
+    border-radius: 20px;
+    width: 400px;      
+    margin:10px 20px 10px 10px;
     
 
+}
+.indice li{       
+    display: inline-flex;
+    justify-content:right;
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #11a36a;
+    color: #fff;
+    border-radius: 4px;
+  
+    
 }
